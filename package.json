@@ -1,0 +1,29 @@
+{
+  "name": "visual.regression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token=v3u51b829nr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunk2493/chromaticvisualtesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunk2493/chromaticvisualtesting/issues"
+  },
+  "homepage": "https://github.com/arunk2493/chromaticvisualtesting#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/html": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "chromatic": "^4.0.2"
+  },
+  "dependencies": {}
+}
