@@ -23,7 +23,7 @@
     "@babel/core": "^7.9.6",
     "@storybook/html": "^5.3.18",
     "babel-loader": "^8.1.0",
-    "chromatic": "^4.0.2"
+    "chromatic": "^13.1.2"
   },
   "dependencies": {}
 }
